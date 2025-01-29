@@ -1,0 +1,8 @@
+1) Matching based only on images:
+- Brand,name,images
+
+2) Matching based on images and price:
+- Brand,name,price,images
+
+3) Based on images & brand:
+- Brand,name,images
