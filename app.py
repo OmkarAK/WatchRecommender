@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-# df = pd.read_csv('D:\Career\Data Science\Projects_DA_DS\Watches\WatchesRecommender\WatchRecommender\Project3\Codebase\watches_cleaned.csv')
+df = pd.read_csv("https://raw.githubusercontent.com/OmkarAK/WatchRecommender/refs/heads/main/watches_cleaned.csv")
 
 import streamlit as st
 import os
@@ -32,7 +32,7 @@ st.title('Watch Recommendation Images')
 # Save uploaded file
 def save_uploaded_file(uploaded_file):
     try:
-        with open(os.path.join('uploads',uploaded_file.name),'wb') as f:
+        with open(os.path.join('https://github.com/OmkarAK/WatchRecommender/tree/68ce0215658c4377da2539f76e1c8fd6bc4c68a2/uploads',uploaded_file.name),'wb') as f:
             f.write(uploaded_file.getbuffer())
         return 1
     except:
