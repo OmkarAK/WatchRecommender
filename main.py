@@ -33,7 +33,7 @@ def extract_features(img_path,model):
 
 filenames = []
 
-path = 'https://github.com/OmkarAK/WatchRecommender/tree/68ce0215658c4377da2539f76e1c8fd6bc4c68a2/images'
+path = 'images'
 
 for file in os.listdir(path):
   filenames.append(os.path.join(path,file))

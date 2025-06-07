@@ -1,2 +1,4 @@
 myenv/
 app.py/
+old_embeddings.pkl/
+old_filenames.pkl/
